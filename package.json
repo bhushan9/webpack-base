@@ -1,0 +1,36 @@
+{
+  "name": "webpack-base",
+  "version": "0.1.0",
+  "main": "index.js",
+  "private": true,
+  "dependencies": {
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-scripts": "2.1.1"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "webpack-hotreload": "./node_modules/.bin/webpack -d --watch",
+    "webpack": "./node_modules/.bin/webpack -d"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.1.6",
+    "@babel/preset-env": "^7.1.6",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-es2017": "^6.24.1",
+    "react-hot-loader": "^4.3.12",
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2"
+  }
+}
